@@ -13,6 +13,8 @@ cout << "Pointer dereferencing & typecasting change: " << *(static_cast<int*>(pv
 
  int a[5][2] = { {0,0}, {1,2}, {2,4}, {3,6},{4,8}};
 
+int balance[7];
+cout << balance;
  // output each array element's value 
 
  for ( int i = 0; i < 5; i++ )
