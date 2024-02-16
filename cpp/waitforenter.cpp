@@ -1,8 +1,9 @@
 #include <iostream>
 
+using namespace std;
 int main()
 {
-    std::cout << "Game over!" << std::endl;
-    std::cin.ignore(std::cin.rdbuf()->in_avail()+1);
+    cout << "Game over!" << endl;
+    cin.ignore(cin.rdbuf()->in_avail()+1);
     return 0;
 }
